@@ -51,7 +51,7 @@ jobs:
       - name: Run Sonar Scanner
         run: |
           sonar-scanner \
-            -Dsonar.projectKey=DevSecoOps-project-AWS \
+            -Dsonar.projectKey=Pratyushaa94_DevSecoOps-project-AWS \
             -Dsonar.projectName=DevSecoOps-project-AWS \
             -Dsonar.organization=pratyushaa94 \
             -Dsonar.host.url=$SONAR_HOST_URL \
