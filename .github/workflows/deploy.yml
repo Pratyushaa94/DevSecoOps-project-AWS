@@ -53,8 +53,10 @@ jobs:
           sonar-scanner \
             -Dsonar.projectKey=DevSecoOps-project-AWS \
             -Dsonar.projectName=DevSecoOps-project-AWS \
+            -Dsonar.organization=pratyushaa94 \
             -Dsonar.host.url=$SONAR_HOST_URL \
             -Dsonar.login=$SONAR_TOKEN
+
 
       - name: Install Trivy
         run: |
