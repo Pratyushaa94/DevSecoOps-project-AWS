@@ -1,4 +1,4 @@
-name: CI/CD Pipeline - AWS EKS
+name: CI/CD Pipeline - AWS 
 
 on:
   push:
